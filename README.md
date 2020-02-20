@@ -26,4 +26,4 @@ Las imágenes que podeis encontrar en esta carpeta son:
 
  - **LogoUC3M.png**
 
-![LogoUC3M.png](Images/LogoUC3M)
+![LogoUC3M.png](Images/LogoUC3M.png)
