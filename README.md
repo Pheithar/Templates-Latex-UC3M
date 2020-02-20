@@ -26,20 +26,20 @@ Las imágenes que podeis encontrar en esta carpeta son:
 
  - **LogoUC3M.png**
 
-![](Images/LogoUC3M.png | width=100)
+<img src="Images/LogoUC3M.png" width="40%">
 
 - **SmallLogo.jpg**
 
-![](Images/SmallLogo.jpg | width=100)
+<img src="Images/SmallLogo.jpg" width="40%">
 
 - **MinLogo.jpg**
 
-![](Images/MinLogo.jpg | width=100)
+<img src="Images/MinLogo.jpg" width="40%">
 
 - **CircUC3M.png**
 
-![](Images/CircUC3M.png | width=100)
+<img src="Images/CircUC3M.png" width="40%">
 
 - **BlueLogo.jpg**
 
-![](Images/BlueLogo.jpg | width=100)
+<img src="Images/BlueLogo.jpg" width="40%">
