@@ -1,5 +1,5 @@
 # Templates-Latex-UC3M
-Templates de latex para prácticas de la Universidad Carlos 3 de Madrid
+Templates de latex para prácticas de la Universidad Carlos III de Madrid
 
 
 ## Compilación de la plantilla de prácticas
