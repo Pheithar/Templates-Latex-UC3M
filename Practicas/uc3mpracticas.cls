@@ -34,10 +34,10 @@
 
 
 %Comando para insertar la cabecera
-%1 -> Cabecera izquierda
-%2 -> Cabecera centro
-%3 -> Cabecera derecha
-%4 -> Tamaño línea separación
+%1 -> Tamaño línea separación
+%2 -> Cabecera izquierda
+%3 -> Cabecera centro
+%4 -> Cabecera derecha
 \newcommand{\headerpr}[4][0]{
   \renewcommand{\headrulewidth}{#1pt}
   \lhead{#2}
@@ -46,10 +46,10 @@
 }
 
 %Comando para insertar la pie de página
-%1 -> Pie de página izquierda
-%2 -> Pie de página centro
-%3 -> Pie de página derecha
-%4 -> Tamaño línea separación
+%1 -> Tamaño línea separación
+%2 -> Pie de página izquierda
+%3 -> Pie de página centro
+%4 -> Pie de página derecha
 \newcommand{\footerpr}[4][0]{
   \renewcommand{\footrulewidth}{#1pt}
   \lfoot{#2}
