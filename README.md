@@ -9,6 +9,15 @@ La plantilla para prácticas contiene un pdf del documento *practicasuc3m.tex*, 
 
 Para compilar *practicasuc3m.tex* es necesario la carpeta de *Images* y el archivo *uc3mpracticas.cls*. Este archivo contiene todas las bbliotecas y comandos especiales que utiliza la plantilla.
 
+por último, para compilar de nuevo el archivo, tan solo es necesario situarse en el directorio en el que está el archivo, y ejecutar el siguiente comando:
+
+> `pdflatex practicasuc3m.tex`
+
+# LaTeX
+
+LaTeX es un sistema de tipado con muchísimas funcionalidades, que te permite la creación de documentos **pdf** estéticos.
+
+Informate más en [LaTeX](https://www.latex-project.org)
 
 # Documentación
 
