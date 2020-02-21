@@ -11,7 +11,7 @@ Para compilar *practicasuc3m.tex* es necesario la carpeta de *Images* y el archi
 
 por último, para compilar de nuevo el archivo, tan solo es necesario situarse en el directorio en el que está el archivo, y ejecutar el siguiente comando:
 
-> `pdflatex practicasuc3m.tex`
+> **`pdflatex practicasuc3m.tex`**
 
 # LaTeX
 
