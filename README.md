@@ -47,7 +47,7 @@ Recibe un total de 4 argumentos:
   3. Contenido del pie de página central
   4. Contenido del pie de página derecha
 
-### Comando para una portada genérica y centrada: **\centeredtitle**
+#### Comando para una portada genérica y centrada: **\centeredtitle**
 
 Recibe un total de 5 argumentos:
 
@@ -61,7 +61,7 @@ Su distribución es:
 
 ![](Images/CenteredTitle.png)
 
-### Comando para una portada centrada con orden diferente: **\centeredtitlealter**
+#### Comando para una portada centrada con orden diferente: **\centeredtitlealter**
 
 Recibe un total de 5 argumentos:
 
@@ -75,7 +75,7 @@ Su distribución es:
 
 ![](Images/CenteredTitleAlter.png)
 
-### Comando para una portada con dos columnas: **\twocolumstitle**
+#### Comando para una portada con dos columnas: **\twocolumstitle**
 
 Recibe un total de 5 argumentos:
 
@@ -89,7 +89,7 @@ Su distribución es:
 
 ![](Images/TwoColumnTitle.png)
 
-### Comando para introducir hasta 4 autores: **\authors**
+#### Comando para introducir hasta 4 autores: **\authors**
 
 Recibe un total de 8 argumentos:
 
