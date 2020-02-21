@@ -31,6 +31,7 @@
 
 %Cambiar márgenes de la página
 \geometry{margin=2.5cm}
+\setlength\parindent{0pt}
 
 
 %Comando para insertar la cabecera
