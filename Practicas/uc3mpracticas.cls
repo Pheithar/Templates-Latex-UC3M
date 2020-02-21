@@ -1,6 +1,6 @@
 \LoadClass{article}
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{uc3mpracticas}[2020/02/20 Clase personalizada de Alejandro Valverde para prácticas de la UC3M]
+\ProvidesClass{uc3mpracticas}[2020/02/21 Clase personalizada de Alejandro Valverde para prácticas de la UC3M]
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%                   Plantilla Prácticas UC3M                               %%%
@@ -178,4 +178,13 @@
     #5 & \textit{#6} \\
     #7 & \textit{#8} \\
   \end{tabular}
+}
+
+%Imágenes centradas
+%1 -> Tamaño imagen (Opcional)
+%2 -> Path Imagen
+\newcommand{\imgcenter}[2][80]{
+  \begin{center}
+    \includegraphics[width=#1mm]{#2}
+  \end{center}
 }

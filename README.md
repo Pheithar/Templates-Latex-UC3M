@@ -1,5 +1,5 @@
 # Templates-Latex-UC3M
-Templates de latex para prácticas de la Universidad Carlos III de Madrid
+Templates de latex para prácticas de la Universidad Carlos III de Madrid hechas por Alejandro Valverde Mahou.
 
 Si tienes alguna plantilla propia, o quieres contribuir a aumentando los ejemplos y plantillas ya existentes, eres bienvenido a realizar culauiqer *commit* que consideres.
 
@@ -96,6 +96,11 @@ Recibe un total de 8 argumentos:
 
 ## practicasuc3m.tex
 
+  Este archivo contiene una implementación de todos los comandos nuevos, además de algunas cosas extra, como puede ser usar diferentes *headers* y *footers* diferentes para tener diferentes en la portada e índice que en el resto del documento.
+
+  También contiene 3 tipos de portadas diferentes, por si prefieres usar una u otra.
+
+  Por último hay un documento con varias estructuras que pueden ser útiles, como puede ser introducir imágenes, listas o tablas.
 
 ## Images
 

@@ -1,5 +1,10 @@
 \babel@toc {spanish}{}
-\contentsline {section}{\numberline {1}Education}{5}% 
-\contentsline {subsection}{\numberline {1.1}University of Nowhere}{6}% 
-\contentsline {section}{\numberline {2}Work}{6}% 
-\contentsline {subsection}{\numberline {2.1}ABC Limited.}{6}% 
+\contentsline {section}{\numberline {1}Title}{5}% 
+\contentsline {subsection}{\numberline {1.1}Subtitle}{5}% 
+\contentsline {subsubsection}{\numberline {1.1.1}Subsubtitle}{5}% 
+\contentsline {section}{\numberline {2}Title2}{5}% 
+\contentsline {subsection}{\numberline {2.1}Subtitle2}{5}% 
+\contentsline {section}{\numberline {3}Title3}{5}% 
+\contentsline {subsection}{\numberline {3.1}Subtitle3.1}{5}% 
+\contentsline {subsection}{\numberline {3.2}Subtitle3.2}{5}% 
+\contentsline {subsection}{\numberline {3.3}Subtitle3.2}{6}% 

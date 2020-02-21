@@ -21,12 +21,13 @@
   %Pie de Página
   \footerpr{}{UC3M}{{\thepage} de \pageref{LastPage}}
 }
+
 %Declarar formato de encabezado y pie del título e indice
 \fancypagestyle{titu}{%
-%Cabecera
-\headerpr{}{}{}
-%Pie de Página
-\footerpr{}{}{}
+  %Cabecera
+  \headerpr{}{}{}
+  %Pie de Página
+  \footerpr{}{}{}
 }
 
 
@@ -78,12 +79,60 @@
   %Comienzo formato documento general
   \mainmatter
 
-  \section{Education}
-  \newpage
-  \subsection{University of Nowhere}
-  \section{Work}
-  \subsection{ABC Limited.}
+  \section{Title}
+  \subsection{Subtitle}
+  \subsubsection{Subsubtitle}
 
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum orci eu erat sollicitudin, at mattis sapien tempus. Proin accumsan dignissim sollicitudin. Aliquam et diam vitae ex blandit posuere finibus vitae massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id tellus vitae nulla consectetur dictum. Nulla non lacus a erat vestibulum viverra quis bibendum eros. Duis semper lectus sed aliquam porttitor. Maecenas consectetur ipsum ornare orci semper, non malesuada orci euismod. Etiam eleifend orci at quam posuere volutpat. Suspendisse finibus mauris at ornare luctus. Pellentesque sagittis elementum ante, quis vulputate sem rutrum vitae. Nam a urna vel urna tempus porttitor sit amet vel nisl. Aenean sapien eros, mollis sed aliquet quis, tristique non nunc. Proin molestie gravida dictum. Vestibulum elementum sodales magna, eget elementum est.
+
+  \section{Title2}
+  \subsection{Subtitle2}
+
+  \imgcenter[150]{Images/BlueLogo.jpg}
+
+  \section{Title3}
+  \subsection{Subtitle3.1}
+
+
+    %Tabla sin bordes
+    \begin{center}
+      \begin{tabular}{ c c c }
+       cell1 & cell2 & cell3 \\
+       cell4 & cell5 & cell6 \\
+       cell7 & cell8 & cell9
+      \end{tabular}
+    \end{center}
+
+  \subsection{Subtitle3.2}
+
+    %Tabla con bordes
+    \begin{center}
+      \begin{tabular}{ | c | c | c | }
+        \hline
+       cell1 & cell2 & cell3 \\
+       \hline
+       cell4 & cell5 & cell6 \\
+       \hline
+       cell7 & cell8 & cell9 \\
+       \hline
+      \end{tabular}
+    \end{center}
+
+  \subsection{Subtitle3.2}
+
+    %Tabla con algunos bordes
+    \begin{center}
+      \begin{tabular}{  c | c | c  }
+
+       cell1 & cell2 & cell3 \\
+       \hline
+       \hline
+       cell4 & cell5 & cell6 \\
+       cell7 & cell8 & cell9 \\
+      \end{tabular}
+    \end{center}
+
+
+
 
 \end{document}
