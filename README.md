@@ -50,7 +50,7 @@ Recibe un total de 5 argumentos:
 
 Su distribución es:
 
-![](Images/Centered Title.png)
+![](Images/CenteredTitle.png)
 
 
 ## practicasuc3m.tex
