@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.1.20)  21 FEB 2020 11:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.1.20)  21 FEB 2020 11:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -22,7 +22,7 @@ File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-Document Class: uc3mpracticas 2020/02/20 Clase personalizada de Alejandro Valve
+Document Class: uc3mpracticas 2020/02/21 Clase personalizada de Alejandro Valve
 rde para pr\IeC {\'a}cticas de la UC3M
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
@@ -330,10 +330,10 @@ LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
 ) ) 
 Here is how much of TeX's memory you used:
- 3370 strings out of 492609
- 46677 string characters out of 6131462
+ 3371 strings out of 492609
+ 46682 string characters out of 6131462
  137790 words of memory out of 5000000
- 7250 multiletter control sequences out of 15000+600000
+ 7251 multiletter control sequences out of 15000+600000
  6417 words of font info for 23 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,10n,45p,897b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -343,7 +343,7 @@ re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on practicasuc3m.pdf (6 pages, 133352 bytes).
+Output written on practicasuc3m.pdf (6 pages, 135408 bytes).
 PDF statistics:
  51 PDF objects out of 1000 (max. 8388607)
  33 compressed objects within 1 object stream
