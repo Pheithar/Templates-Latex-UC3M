@@ -52,6 +52,47 @@ Su distribución es:
 
 ![](Images/CenteredTitle.png)
 
+### Comando para una portada centrada con orden diferente: **\centeredtitlealter**
+
+Recibe un total de 5 argumentos:
+
+  1. *Path* a la imagen
+  2. Nombre de la carrera
+  3. Curso actual
+  4. Asignatura
+  5. Título de la práctica
+
+Su distribución es:
+
+![](Images/CenteredTitleAlter.png)
+
+### Comando para una portada con dos columnas: **\twocolumstitle**
+
+Recibe un total de 5 argumentos:
+
+  1. *Path* a la imagen
+  2. Nombre de la carrera
+  3. Curso actual
+  4. Asignatura
+  5. Título de la práctica
+
+Su distribución es:
+
+![](Images/TwoColumnTitle.png)
+
+### Comando para introducir hasta 4 autores: **\authors**
+
+Recibe un total de 8 argumentos:
+
+  1. Nombre autor 1
+  2. NIA autor 1
+  3. Nombre autor 2
+  4. NIA autor 2
+  5. Nombre autor 3
+  6. NIA autor 3
+  7. Nombre autor 4
+  8. NIA autor 4
+
 
 ## practicasuc3m.tex
 
