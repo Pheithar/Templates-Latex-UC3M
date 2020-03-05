@@ -1,9 +1,3 @@
-# Templates-Latex-UC3M
-Templates de latex para prácticas de la Universidad Carlos III de Madrid hechas por Alejandro Valverde Mahou.
-
-Si tienes alguna plantilla propia, o quieres contribuir a aumentando los ejemplos y plantillas ya existentes, eres bienvenido a realizar culauiqer *commit* que consideres.
-
-
 - [Templates-Latex-UC3M](#templates-latex-uc3m)
   * [Compilación de la plantilla de prácticas](#compilaci-n-de-la-plantilla-de-pr-cticas)
 - [LaTeX](#latex)
@@ -23,13 +17,13 @@ Si tienes alguna plantilla propia, o quieres contribuir a aumentando los ejemplo
   * [Images](#images)
   * [Bibliotecas Usadas](#bibliotecas-usadas)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Índice generado con markdown-toc</a></i></small>
 
 
+# Templates-Latex-UC3M
+Templates de latex para prácticas de la Universidad Carlos III de Madrid hechas por Alejandro Valverde Mahou.
 
-
-
-
+Si tienes alguna plantilla propia, o quieres contribuir a aumentando los ejemplos y plantillas ya existentes, eres bienvenido a realizar culauiqer *commit* que consideres.
 
 
 ## Compilación de la plantilla de prácticas
