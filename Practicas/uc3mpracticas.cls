@@ -223,12 +223,12 @@
 %1 -> Autor 1
 %2 -> NIA 1
 %3 -> Grupo 1
-%1 -> Autor 2
-%2 -> NIA 2
-%3 -> Grupo 2
-%1 -> Autor 3
-%2 -> NIA 3
-%3 -> Grupo 3
+%4 -> Autor 2
+%5 -> NIA 2
+%6 -> Grupo 2
+%7 -> Autor 3
+%8 -> NIA 3
+%9 -> Grupo 3
 \newcommand{\authorsgroup}[9]{
   \textbf{\large Autores:}
   \normalsize
