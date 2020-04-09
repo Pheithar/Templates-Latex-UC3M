@@ -1,7 +1,30 @@
+- [Templates-Latex-UC3M](#templates-latex-uc3m)
+  * [Compilación de la plantilla de prácticas](#compilaci-n-de-la-plantilla-de-pr-cticas)
+- [LaTeX](#latex)
+- [Documentación](#documentaci-n)
+  * [uc3mpracticas.cls](#uc3mpracticascls)
+      - [Comando para insertar la cabecera: **\headerpr**](#comando-para-insertar-la-cabecera-----headerpr--)
+      - [Comando para insertar el pie de página: **\footerpr**](#comando-para-insertar-el-pie-de-p-gina-----footerpr--)
+      - [Comando para una portada genérica y centrada: **\centeredtitle**](#comando-para-una-portada-gen-rica-y-centrada-----centeredtitle--)
+      - [Comando para una portada centrada con orden diferente: **\centeredtitlealter**](#comando-para-una-portada-centrada-con-orden-diferente-----centeredtitlealter--)
+      - [Comando para una portada con dos columnas: **\twocolumstitle**](#comando-para-una-portada-con-dos-columnas-----twocolumstitle--)
+      - [Comando para introducir hasta 4 autores: **\authors**](#comando-para-introducir-hasta-4-autores-----authors--)
+      - [Comando para introducir hasta 4 autores en la derecha: **\authorsright**](#comando-para-introducir-hasta-4-autores-en-la-derecha-----authorsright--)
+      - [Comando para introducir hasta 3 autores con su grupo: **\authorsgroup**](#comando-para-introducir-hasta-3-autores-con-su-grupo-----authorsgroup--)
+      - [Comando para introducir hasta 3 autores con su grupo en la derecha: **\authorsrightgroup**](#comando-para-introducir-hasta-3-autores-con-su-grupo-en-la-derecha-----authorsrightgroup--)
+      - [Comando para incluir una imagen centrada **\imgcenter**](#comando-para-incluir-una-imagen-centrada----imgcenter--)
+  * [practicasuc3m.tex](#practicasuc3mtex)
+  * [Images](#images)
+  * [Bibliotecas Usadas](#bibliotecas-usadas)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Índice generado con markdown-toc</a></i></small>
+
+
 # Templates-Latex-UC3M
 Templates de latex para prácticas de la Universidad Carlos III de Madrid hechas por Alejandro Valverde Mahou.
 
 Si tienes alguna plantilla propia, o quieres contribuir a aumentando los ejemplos y plantillas ya existentes, eres bienvenido a realizar culauiqer *commit* que consideres.
+
 
 ## Compilación de la plantilla de prácticas
 
@@ -47,7 +70,7 @@ Recibe un total de 4 argumentos:
   3. Contenido del pie de página central
   4. Contenido del pie de página derecha
 
-### Comando para una portada genérica y centrada: **\centeredtitle**
+#### Comando para una portada genérica y centrada: **\centeredtitle**
 
 Recibe un total de 5 argumentos:
 
@@ -61,7 +84,7 @@ Su distribución es:
 
 ![](Images/CenteredTitle.png)
 
-### Comando para una portada centrada con orden diferente: **\centeredtitlealter**
+#### Comando para una portada centrada con orden diferente: **\centeredtitlealter**
 
 Recibe un total de 5 argumentos:
 
@@ -75,7 +98,7 @@ Su distribución es:
 
 ![](Images/CenteredTitleAlter.png)
 
-### Comando para una portada con dos columnas: **\twocolumstitle**
+#### Comando para una portada con dos columnas: **\twocolumstitle**
 
 Recibe un total de 5 argumentos:
 
@@ -89,7 +112,7 @@ Su distribución es:
 
 ![](Images/TwoColumnTitle.png)
 
-### Comando para introducir hasta 4 autores: **\authors**
+#### Comando para introducir hasta 4 autores: **\authors**
 
 Recibe un total de 8 argumentos:
 
@@ -102,6 +125,53 @@ Recibe un total de 8 argumentos:
   7. Nombre autor 4
   8. NIA autor 4
 
+#### Comando para introducir hasta 4 autores en la derecha: **\authorsright**
+
+Recibe un total de 8 argumentos:
+
+  1. Nombre autor 1
+  2. NIA autor 1
+  3. Nombre autor 2
+  4. NIA autor 2
+  5. Nombre autor 3
+  6. NIA autor 3
+  7. Nombre autor 4
+  8. NIA autor 4
+
+#### Comando para introducir hasta 3 autores con su grupo: **\authorsgroup**
+
+Recibe un total de 9 argumentos:
+
+  1. Autor 1
+  2. NIA 1
+  3. Grupo 1
+  4. Autor 2
+  5. NIA 2
+  6. Grupo 2
+  7. Autor 3
+  8. NIA 3
+  9. Grupo 3
+
+#### Comando para introducir hasta 3 autores con su grupo en la derecha: **\authorsrightgroup**
+
+Recibe un total de 9 argumentos:
+
+  1. Autor 1
+  2. NIA 1
+  3. Grupo 1
+  4. Autor 2
+  5. NIA 2
+  6. Grupo 2
+  7. Autor 3
+  8. NIA 3
+  9. Grupo 3
+
+#### Comando para incluir una imagen centrada **\imgcenter**
+
+Recibe un total de 2 argumentos
+
+  1. Ancho de la imagen (*opcional*)
+  2. *Path* a la imagen
 
 ## practicasuc3m.tex
 
@@ -147,3 +217,5 @@ Las imágenes que podeis encontrar en esta carpeta son:
  * Biblioteca para permitir el uso de diferentes headers y footers: **etoolbox**
  * Bibliotecas de imágenes: **graphicx**
  * Biblioteca para usar diferentes columnas: **multicol**
+ * Biblioteca para usar letras de tipo vectorial: **fontenc** (con *T1*)
+ * Biblioteca para usar la fuente helvética: **helvet** (con *scaled*)

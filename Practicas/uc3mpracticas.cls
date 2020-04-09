@@ -1,6 +1,6 @@
 \LoadClass{article}
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{uc3mpracticas}[2020/02/21 Clase personalizada de Alejandro Valverde para prácticas de la UC3M]
+\ProvidesClass{uc3mpracticas}[2020/03/05 Clase personalizada de Alejandro Valverde para prácticas de la UC3M]
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%                   Plantilla Prácticas UC3M                               %%%
@@ -26,11 +26,20 @@
 \RequirePackage{graphicx}
 %Biblioteca para usar diferentes columnas
 \RequirePackage{multicol}
+%Biblioteca para alinear algunas líneas
+\RequirePackage{ragged2e}
+%Usar fuentes de tipo vectorial
+\RequirePackage[T1]{fontenc}
+%Fuente helvética
+\RequirePackage[scaled]{helvet}
 
+%Poner la fuente como predeterminada
+\renewcommand\familydefault{\sfdefault}
 
 
 %Cambiar márgenes de la página
 \geometry{margin=2.5cm}
+\setlength\parindent{0pt}
 
 
 %Comando para insertar la cabecera
@@ -98,7 +107,6 @@
   \begin{center}
     \vspace{30mm}
 
-
     \LARGE #2
 
     \vspace{7mm}
@@ -109,13 +117,19 @@
 
     \includegraphics[width=110mm]{#1}
 
-    \vspace{10mm}
+    \vspace{5mm}
+
+    \line(1,0){350}
+
+    \vspace{5mm}
 
     \textbf{\LARGE #4}
 
     \vspace{10mm}
 
     \textbf{\Huge #5}
+
+    \line(1,0){350}
 
     \vspace{40mm}
   \end{center}
