@@ -32,6 +32,9 @@
 \RequirePackage[T1]{fontenc}
 %Fuente helvética
 \RequirePackage[scaled]{helvet}
+%Hiperlinks
+\RequirePackage{hyperref}
+
 
 %Poner la fuente como predeterminada
 \renewcommand\familydefault{\sfdefault}
@@ -40,6 +43,13 @@
 %Cambiar márgenes de la página
 \geometry{margin=2.5cm}
 \setlength\parindent{0pt}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
 
 
 %Comando para insertar la cabecera
